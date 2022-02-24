@@ -1,0 +1,21 @@
+h1 {
+    margin-top: 32px;
+    font-size:60px;
+    font-weight: lighter;
+}
+
+.author-row {
+    color: darkgray;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size:48px;
+    font-weight: normal;
+}
+
+p{
+    font-size:16px;
+    font-weight: normal;
+}

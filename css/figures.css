@@ -1,0 +1,10 @@
+img{
+    max-width: 100%;
+}
+
+
+figcaption{
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 8px;
+}
