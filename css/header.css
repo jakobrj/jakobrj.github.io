@@ -6,6 +6,13 @@ header {
     line-height: 56px;
 }
 
+header .home{
+    font-size: 34px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
 footer {
     height: 56px;
     line-height: 56px;
