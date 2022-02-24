@@ -17,3 +17,77 @@
     background: #E0E0E0;
     color: black;
 }
+
+.collection {
+    border: 1px solid #C7C7C7;
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+
+.collection-item {
+    list-style: none;
+    padding: 8px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+.collection-item:not(:first-child) {
+    border-top: 1px solid #C7C7C7;
+}
+
+a.collection-item:hover{
+    background: #E0E0E0;
+    color: #000;
+}
+
+.collection-item-icon {
+    display: inline-block;
+    font-size: 64px;
+    color: #002546;
+}
+
+.collection-item-content {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+.collection-item-content h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.collection-item-content p{
+    font-size: 16px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.topic {
+    color: #002546;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 96px auto auto auto;
+    width:300px;
+}
+
+a.topic:hover{
+    color: #002546;
+}
+
+.topic.no-border {
+    border: none;
+}
+
+.topic-icon {
+    font-size: 80px;
+}
+
+.topic h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #002546;
+}

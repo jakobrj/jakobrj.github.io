@@ -19,3 +19,7 @@ p{
     font-size:16px;
     font-weight: normal;
 }
+
+.horizontal-center {
+    text-align: center;
+}
