@@ -6,12 +6,32 @@ header {
     line-height: 56px;
 }
 
-header .home{
+header .home {
     font-size: 34px;
     font-weight: bolder;
     color: white;
     text-decoration: none;
 }
+
+header nav {
+    height: 56px;
+    margin-right: -16px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    height: 56px;
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+header nav a:hover {
+    background: #003d73;
+    color: white;
+}
+
 
 footer {
     height: 56px;
