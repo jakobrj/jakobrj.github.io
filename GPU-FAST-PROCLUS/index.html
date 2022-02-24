@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GPU-FAST-PROCLUS</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a class="home" href="/">jakobrj</a>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>GPU-FAST-PROCLUS: A Fast GPU-parallelized Approach to Projected Clustering</h1>
+            <div class="author-row">By Jakob Rødsgaard Jørgense, Katrine Scheel, Ira Assent, Ajeet Ram Pathak, and Anne C. Elster</div>
+            <h2>Abstract</h2>
+            <p>
+                Projected and subspace clustering aim to find groups of similar objects within a subspace of the full-dimensional space.
+                Where subspace clustering tries to identify clusters in all possible subspaces, projected clustering assigns each point to a single cluster within one projected subspace, resulting in a much smaller result set.
+                PROCLUS is an adaptation of the k-medoids clustering algorithm, CLARANS, to projected clustering.
+                Even though PROCLUS is the first projected clustering algorithm, it is still competitive in comparative empirical studies.
+            </p>
+            <p>
+                PROCLUS is, however, still too slow for large-scale data or real-time interaction when used in information retrieval processes.
+                Therefore, we propose novel algorithmic strategies to reduce computations and exploit the massive parallelism offered by modern graphical processing units (GPUs).
+                To take advantage of their high degree of parallelism, standard sequential algorithms need to be significantly restructured.
+                We therefore also propose a novel GPU-parallelized algorithm, GPU-FAST-PROCLUS, that takes advantage of the computational power of modern GPUs.
+            </p>
+            <p>
+                We provide experimental studies that demonstrate the benefit of our proposed strategies and GPU-parallelizations.
+                In this experimental evaluation, we obtain 3 orders of magnitude speedup compared to PROCLUS.
+            </p>
+            <h2>Resources</h2>
+            <p>
+                Below, you find links to primary resources for our paper and repository.
+            </p>
+            <a class="chip" href="https://github.com/jakobrj/GPU_PROCLUS"><i class="fa-brands fa-github"></i> github</a>
+            <a class="chip" href="#"><i class="fa-solid fa-file-pdf"></i> paper</a>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

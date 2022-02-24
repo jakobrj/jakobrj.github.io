@@ -26,7 +26,7 @@
 
 .collection-item {
     list-style: none;
-    padding: 8px;
+    padding: 16px;
     color: #000;
     display: block;
     text-decoration: none;
@@ -43,26 +43,26 @@ a.collection-item:hover{
 
 .collection-item-icon {
     display: inline-block;
-    font-size: 64px;
+    font-size: 48px;
     color: #002546;
 }
 
 .collection-item-content {
     display: inline-block;
     vertical-align: top;
-    margin-left: 8px;
+    margin-left: 32px;
 }
 
 .collection-item-content h1 {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bolder;
     margin: 0;
 }
 
 .collection-item-content p{
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: lighter;
     margin: 0;
-    font-weight: bolder;
 }
 
 .topic {
